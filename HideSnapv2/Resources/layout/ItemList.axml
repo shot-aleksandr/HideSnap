@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:id="@+id/relativelay">
+    <ImageView
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:scaleType="fitXY"
+        p1:adjustViewBounds="true"
+        p1:id="@+id/imgView" />
+    <ImageView
+        p1:layout_width="90px"
+        p1:layout_height="90px"
+        p1:src="@drawable/play"
+        p1:layout_centerInParent="true"
+        p1:id="@+id/playView" />
+</RelativeLayout>
